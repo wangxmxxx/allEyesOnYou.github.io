@@ -7,7 +7,7 @@
 	if(d==0 && h==0 && m==0 && s==0){
 		clearInterval(se);
 		}
-      time= d + "ÃÏ" + h + " ±" + m + "∑÷" + s + "√Î";
+      time= d + ":" + h + ":" + m + ":" + s ;
       document.getElementById("showtime").innerHTML=time;
       s-=1;
     }
