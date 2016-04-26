@@ -7,7 +7,7 @@
 	if(d==0 && h==0 && m==0 && s==0){
 		clearInterval(se);
 		}
-      time= d + ":" + h + ":" + m + ":" + s ;
+      time= d>9?d:"0"+d + ":" + h>9?h:"0"+h + ":" + m>9?m:"0"+m + ":" + s>9?s:"0"+s;
       document.getElementById("showtime").innerHTML=time;
       s-=1;
     }
