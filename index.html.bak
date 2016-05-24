@@ -12,8 +12,8 @@
     <link rel="stylesheet" type="text/css" media="screen" href="stylesheets/shopping.css">
     <link href="stylesheets/style.css" type="text/css" rel="stylesheet" />
     <link href="stylesheets/eson.css" type="text/css" rel="stylesheet" />
-    <script type="text/javascript" src="javascripts/eson.min.js"></script>
-    <script type="text/javascript" src="javascripts/nl.min.js"></script>
+        <script type="text/javascript" src="javascripts/eson.min.js"></script>
+        <script type="text/javascript" src="javascripts/nl.min.js"></script>
 <title>挚爱网-为你而建</title>
 </head>
     <body>
