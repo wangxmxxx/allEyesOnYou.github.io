@@ -49,7 +49,7 @@
         margin:0 auto;
     }
 .roof {
-        border: 1px solid #CDC28D;
+        border: 0px solid #CDC28D;
         float: left;
         width: 100%;
         height: 10%;
@@ -73,7 +73,7 @@
         height: 102%;
     }
 .leftLogo {
-        border: 1px solid #CDC28D;
+        border: 0px solid #CDC28D;
         float: left;
         width: 100%;
         height: 15%;
@@ -85,7 +85,7 @@
         height: 86%;
     }
 .leftIntroTop{
-        border: 1px solid #CDC28D;
+        border: 0px solid #CDC28D;
         background-color:#fff999;
         float: left;
         width: 100%;
@@ -99,7 +99,7 @@
         height: 49.5%;
     }
 .leftTime {
-        border: 1px solid #CDC28D;
+        border: 0px solid #CDC28D;
         border-bottom: 0px; /* 去掉div的下边框 */
         float: left;
         width: 100%;
@@ -118,13 +118,13 @@
 .leftIntroTop ul li a:active{color:#9932CC} /* 被选择时的颜色 */
 /* .leftIntroTop ul li a:visited {color: #d90a81}  访问过后的颜色 */
 .rightInwardTop {
-        border: 1px solid #CDC28D;
+        border: 0px solid #CDC28D;
         float: left;
         width: 100%;
         height: 33%;
     }
 .rightInwardCenter,.rightInwardDown {
-        border: 1px solid #CDC28D;
+        border: 0px solid #CDC28D;
         float: left;
         margin-top:2px;
         width: 100%;
@@ -151,7 +151,8 @@
         height:63px;
         float:left;
         font-size:7px;
-        color:#ddd999;
+        color:#aaa999;
+		margin-top:15px;
 }
 .rightInwardTop table tr th {
         width:200px;
@@ -195,7 +196,7 @@
         float:left;"
     }
 .sign {
-        border: 1px solid #CDC28D;
+        border: 0px solid #CDC28D;
         float: left;
         width: 100%;
         height: 78%;
@@ -221,7 +222,7 @@
         position:relative; 
         width:100%; 
         height:65%; 
-        border:1px 
+        border:0px 
         solid #CDC28D; 
         overflow:hidden;
         border-top: 0px;

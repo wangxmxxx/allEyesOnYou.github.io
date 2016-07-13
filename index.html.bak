@@ -1,6 +1,7 @@
 <!doctype html>
 <html lang="en">
 <head>
+	<link rel="shortcut icon" href="images/logo.ico"/>
     <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
     <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1, user-scalable=no">
@@ -12,30 +13,30 @@
     <link rel="stylesheet" type="text/css" media="screen" href="stylesheets/shopping.css">
     <link href="stylesheets/style.css" type="text/css" rel="stylesheet" />
     <link href="stylesheets/eson.css" type="text/css" rel="stylesheet" />
-        <script type="text/javascript" src="javascripts/eson.min.js"></script>
-        <script type="text/javascript" src="javascripts/nl.min.js"></script>
-<title>挚爱网-为你而建</title>
+    <script type="text/javascript" src="javascripts/eson.min.js"></script>
+    <script type="text/javascript" src="javascripts/nl.min.js"></script>
+<title>欢乐购</title>
 </head>
     <body>
     <!-- start-全局Div -->
     <div class = "global">
-        <div  class = "service1"><a href = "#"><img src="images/5.jpg" style = "width: 50px;height:50px;"/></a></div>
-        <div  class = "service2"><a href = "#"><img src="images/4.png" style = "width: 50px;height:50px;"/></a></div>
-        <div  class = "service3"><a href = "#"><img src="images/5.jpg" style = "width: 50px;height:50px;"/></a></div>
-        <div  class = "service4"><a href = "#"><img src="images/4.png" style = "width: 50px;height:50px;"/></a></div>
-        <div  class = "service5"><a href = "#"><img src="images/5.jpg" style = "width: 50px;height:50px;"/></a></div>
+        <div  class = "service1"><a href = "#"><img src="images/img/1.jpg" style = "width: 50px;height:50px;"/></a></div>
+        <div  class = "service2"><a href = "#"><img src="images/img/2.jpg" style = "width: 50px;height:50px;"/></a></div>
+        <div  class = "service3"><a href = "#"><img src="images/img/3.jpg" style = "width: 50px;height:50px;"/></a></div>
+        <div  class = "service4"><a href = "#"><img src="images/img/4.jpg" style = "width: 50px;height:50px;"/></a></div>
+        <div  class = "service5"><a href = "#"><img src="images/img/5.jpg" style = "width: 50px;height:50px;"/></a></div>
         <!-- start-全局内部Div-->
         <div class = "globalInward">
             <!-- start-网页顶层 -->
             <div class = "roof">
-                <img src="images/5.jpg" style = "width: 100%;height:80px;"/>
+              <img src="images/top.jpg" style = "width: 100%;height:100%;"/>
             </div>
             <!-- stop-网页顶层 -->
             <!-- start-左侧整体div-->
             <div class = "leftGlobal">
                 <!-- start-左侧LOGO-div-->
                 <div class = "leftLogo">
-                    <img src="images/5.jpg" style = "width: 100%;height:110px;"/>
+                    <img src="images/slg.jpg" style = "width: 100%;height:110px;"/>
                 </div>
                 <!-- stop-左侧LOGO-div-->
                 <!-- start-左侧简介-div-->
@@ -78,10 +79,10 @@
                                 <li>4</li>
                             </ul>
                             <div id="banner_list">
-                                <a href="#" target="_blank"><img src="images/5.jpg" title="鄙视" alt="橡树小屋的blog" width="100%" height="100%"/></a>
-                                <a href="#" target="_blank"><img src="images/2.png" title="橡树小屋的" alt="橡树小屋的blog" width="100%" height="100%"/></a>
-                                <a href="#" target="_blank"><img src="images/5.jpg" title="鄙视 " alt="橡树小屋的blog" width="100%" height="100%"/></a>
-                                <a href="#" target="_blank"><img src="images/4.png" title="橡树小屋的" alt="橡树小屋的blog" width="100%" height="100%"/></a>
+                                <a href="#" target="_blank"><img src="images/img/1.jpg" title="欢乐购" alt="欢乐购" width="100%" height="100%"/></a>
+                                <a href="#" target="_blank"><img src="images/img/2.jpg" title="欢乐购" alt="欢乐购" width="100%" height="100%"/></a>
+                                <a href="#" target="_blank"><img src="images/img/3.jpg" title="欢乐购" alt="欢乐购" width="100%" height="100%"/></a>
+                                <a href="#" target="_blank"><img src="images/img/4.jpg" title="欢乐购" alt="欢乐购" width="100%" height="100%"/></a>
                             </div>
                         </div>
                         <!-- stop-左侧活动倒物品 -->
@@ -103,11 +104,11 @@
                 <div class = "rightInwardTop">
                     <table>
                         <tr>
-                            <th><img src="images/5.jpg" style = "width: 100%;height:100%;"/></th>
-                            <th><img src="images/4.png" style = "width: 100%;height:100%;"/></th>
-                            <th><img src="images/5.jpg" style = "width: 100%;height:100%;"/></th>
-                            <th><img src="images/4.png" style = "width: 100%;height:100%;"/></th>
-                            <th><img src="images/5.jpg" style = "width: 100%;height:100%;"/></th>
+                            <th><img src="images/img/1.jpg" style = "width: 100%;height:100%;"/></th>
+                            <th><img src="images/img/2.jpg" style = "width: 100%;height:100%;"/></th>
+                            <th><img src="images/img/3.jpg" style = "width: 100%;height:100%;"/></th>
+                            <th><img src="images/img/4.jpg" style = "width: 100%;height:100%;"/></th>
+                            <th><img src="images/img/5.jpg" style = "width: 100%;height:100%;"/></th>
                         </tr>
                         <tr>
                             <td><div class = "price"><b>￥12.05元</b></div><div class = "referral">哈哈哈哈哈哈哈哈哈哈哈哈</div></td>
@@ -123,11 +124,11 @@
                 <div class = "rightInwardCenter">
                     <table>
                         <tr>
-                            <th><img src="images/5.jpg" style = "width: 100%;height:100%;"/></th>
-                            <th><img src="images/4.png" style = "width: 100%;height:100%;"/></th>
-                            <th><img src="images/5.jpg" style = "width: 100%;height:100%;"/></th>
-                            <th><img src="images/4.png" style = "width: 100%;height:100%;"/></th>
-                            <th><img src="images/5.jpg" style = "width: 100%;height:100%;"/></th>
+                            <th><img src="images/img/6.jpg" style = "width: 100%;height:100%;"/></th>
+                            <th><img src="images/img/7.jpg" style = "width: 100%;height:100%;"/></th>
+                            <th><img src="images/img/20.jpg" style = "width: 100%;height:100%;"/></th>
+                            <th><img src="images/img/9.jpg" style = "width: 100%;height:100%;"/></th>
+                            <th><img src="images/img/10.jpg" style = "width: 100%;height:100%;"/></th>
                         </tr>
                         <tr>
                             <td><div class = "price"><b>￥12.05元</b></div><div class = "referral">哈哈哈哈哈哈哈哈哈哈哈哈</div></td>
@@ -143,11 +144,11 @@
                 <div class = "rightInwardDown">
                     <table>
                         <tr>
-                            <th><img src="images/5.jpg" style = "width: 100%;height:100%;"/></th>
-                            <th><img src="images/4.png" style = "width: 100%;height:100%;"/></th>
-                            <th><img src="images/5.jpg" style = "width: 100%;height:100%;"/></th>
-                            <th><img src="images/4.png" style = "width: 100%;height:100%;"/></th>
-                            <th><img src="images/5.jpg" style = "width: 100%;height:100%;"/></th>
+                            <th><img src="images/img/11.jpg" style = "width: 100%;height:100%;"/></th>
+                            <th><img src="images/img/12.jpg" style = "width: 100%;height:100%;"/></th>
+                            <th><img src="images/img/13.jpg" style = "width: 100%;height:100%;"/></th>
+                            <th><img src="images/img/14.jpg" style = "width: 100%;height:100%;"/></th>
+                            <th><img src="images/img/15.jpg" style = "width: 100%;height:100%;"/></th>
                         </tr>
                         <tr>
                             <td><div class = "price"><b>￥12.05元</b></div><div class = "referral">哈哈哈哈哈哈哈哈哈哈哈哈</div></td>
@@ -161,11 +162,11 @@
                 <div class = "rightInwardDown">
                     <table>
                         <tr>
-                            <th><img src="images/5.jpg" style = "width: 100%;height:100%;"/></th>
-                            <th><img src="images/4.png" style = "width: 100%;height:100%;"/></th>
-                            <th><img src="images/5.jpg" style = "width: 100%;height:100%;"/></th>
-                            <th><img src="images/4.png" style = "width: 100%;height:100%;"/></th>
-                            <th><img src="images/5.jpg" style = "width: 100%;height:100%;"/></th>
+                            <th><img src="images/img/16.jpg" style = "width: 100%;height:100%;"/></th>
+                            <th><img src="images/img/17.jpg" style = "width: 100%;height:100%;"/></th>
+                            <th><img src="images/img/18.jpg" style = "width: 100%;height:100%;"/></th>
+                            <th><img src="images/img/19.jpg" style = "width: 100%;height:100%;"/></th>
+                            <th><img src="images/img/20.jpg" style = "width: 100%;height:100%;"/></th>
                         </tr>
                         <tr>
                             <td><div class = "price"><b>￥12.05元</b></div><div class = "referral">哈哈哈哈哈哈哈哈哈哈哈哈</div></td>
