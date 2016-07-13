@@ -36,7 +36,7 @@
             <div class = "leftGlobal">
                 <!-- start-左侧LOGO-div-->
                 <div class = "leftLogo">
-                    <img src="images/slg.jpg" style = "width: 100%;height:110px;"/>
+                    <img src="images/slg.png" style = "width: 100%;height:110px;"/>
                 </div>
                 <!-- stop-左侧LOGO-div-->
                 <!-- start-左侧简介-div-->
