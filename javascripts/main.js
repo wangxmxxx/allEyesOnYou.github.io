@@ -1,5 +1,5 @@
 // µ¹¼ÆÊ±
-	var se,d=1,h=0,m=0,s=2;
+	var se,d=1,h=0,m=0,s=0;
     function second(){
     if(s==0 && m!= 0){m-=1;s=60;}
     if(m==0 && s==0 && h!= 0){h-=1;m=60;m-=1;s=60}

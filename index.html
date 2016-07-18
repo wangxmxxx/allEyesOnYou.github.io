@@ -1,4 +1,4 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
 <head>
 	<link rel="shortcut icon" href="images/slg.ico"/>
@@ -8,6 +8,7 @@
     <meta name="apple-mobile-web-app-capable" content="yes">
     <meta name="apple-mobile-web-app-status-bar-style" content="black">
     <meta name="format-detection" content="telephone=no">
+	<meta name="baidu-tc-verification" content="00ca3749f46f4a802101d93d9c319073" />
     <script type="text/javascript" src="javascripts/jquery-1.8.3.min.js" charset="utf-8"></script>
     <script type="text/javascript" src="javascripts/main.js"></script>
     <link rel="stylesheet" type="text/css" media="screen" href="stylesheets/shopping.css">
@@ -15,13 +16,16 @@
     <link href="stylesheets/eson.css" type="text/css" rel="stylesheet" />
     <script type="text/javascript" src="javascripts/eson.min.js"></script>
     <script type="text/javascript" src="javascripts/nl.min.js"></script>
-	<meta name="baidu-tc-verification" content="00ca3749f46f4a802101d93d9c319073" />
+	<script type="text/javascript" src="javascripts/jquery-ui.js"></script>
+
+	<script type="text/javascript" src="jisuanqi/script_wxm.js"></script>
+	<link href="jisuanqi/style_wxm.css" type="text/css" rel="stylesheet" />
 <title>尚乐购</title>
 </head>
     <body>
     <!-- start-全局Div -->
     <div class = "global">
-        <div  class = "service1"><a href = "#"><img src="images/img/1.jpg" style = "width: 100%;height:100%;"/></a></div>
+        <div  class = "service1" id="clickhere" title="计算器"><a href = "#"><img src="images/img/counter.jpg" style = "width: 100%;height:100%;"/></a></div>
         <div  class = "service2"><a href = "#"><img src="images/img/2.jpg" style = "width: 100%;height:100%;"/></a></div>
         <div  class = "service3"><a href = "#"><img src="images/img/3.jpg" style = "width: 100%;height:100%;"/></a></div>
         <div  class = "service4"><a href = "#"><img src="images/img/4.jpg" style = "width: 100%;height:100%;"/></a></div>
@@ -44,7 +48,7 @@
                 <div class = "leftIntro">
                     <!-- start-左侧简介上部-div-->
                     <div class = "leftIntroTop">
-                        <ul>
+                        <ul style="margin-left:0px;">
                             <li>&nbsp;<b><a href = "spik/li_1.html" style = "font-size:13px;color:red;">购物导航</a></b></li>
                             <li>&nbsp;<b><a href = "#" style = "font-size:10px;">厨具</a></b>&nbsp;<a href = "#">炒锅</a><span class = "spanColor">|</span><a href = "#">平底锅</a><span class = "spanColor">|</span><a href = "#">铲子</a><span class = "spanColor">|</span><a href = "#">漏勺</a><span class = "spanColor">|</span><a href = "#">砂锅</a><span class = "spanStyle"><a href = "#">>></a></span></li>
                             <li>&nbsp;<b><a href = "#" style = "font-size:10px;">餐具</a></b>&nbsp;<a href = "#">碗</a><span class = "spanColor">|</span><a href = "#">盘子</a><span class = "spanColor">|</span><a href = "#">筷子</a><span class = "spanColor">|</span><a href = "#">汤匙</a><span class = "spanColor">|</span><a href = "#">儿童餐具</a><span class = "spanStyle"><a href = "#">>></a></span></li>
@@ -100,7 +104,7 @@
                 <!-- stop-左侧简介-div-->
             </div>
             <!-- stop-左侧整体div-->
-            <!-- start-右侧整体div-->
+			<!-- start-右侧整体div-->
             <div class = "rightGlobal">
                 <!-- start-右侧内部上div-->
                 <div class = "rightInwardTop">
@@ -187,11 +191,52 @@
         <!-- start 底部版权div -->
         <div class = "base">
             <div class = "bases">
-                尚乐购！在此祝愿大家，快乐购物每一天。
+                尚乐购！快乐购物每一天。
             </div>
         </div>
         <!-- end 底部版权div -->
     </div>
     <!-- stop-全局Div-->
+	<!-- 计算器 -->
+	<!-- 显示窗口的地方 -->
+<div id="here"></div>
+<!-- 要嵌入到窗口的内容 -->
+	<div id="login" style="display:none;">
+		<form action="#" method="post" onSubmit="return false;">
+			<div id="counter">
+				<div style="text-align:center;clear:both;"></div>
+				<div id="counter_content">
+					<h3><input id="input1" type="text" value="0" /></h3>
+					<ul>
+						<li>7</li>
+						<li>8</li>
+						<li>9</li>
+						<li>+</li>
+						<li>4</li>
+						<li>5</li>
+						<li>6</li>
+						<li>-</li>
+						<li>1</li>
+						<li>2</li>
+						<li>3</li>
+						<li>×</li>
+						<li>0</li>
+						<li>C</li>
+						<li>=</li>
+						<li>÷</li>
+					</ul>
+				</div>
+				<div id="bg"></div>
+			</div>
+		</form>
+	</div>
+<script type="text/javascript">
+	var here = document.getElementById("here");
+	var login = document.getElementById("login");
+	var clickhere = document.getElementById("clickhere");
+	clickhere.onclick = function(){
+	here.appendChild(createdialog(287,25+5,login,"计算器",true));
+	}
+</script>
     </body>
 </html>
