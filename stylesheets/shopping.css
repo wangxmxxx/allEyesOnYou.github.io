@@ -157,6 +157,16 @@
 .rightInwardTop table tr th {
         width:200px;
         height:200px;
+		margin:0 6px;position:relative;list-style:none;
+		-webkit-transition: all 0.5s; -moz-transition: all 0.5s; -o-transition: all 0.5s;
+    }
+.rightInwardTop table tr th img{
+		width: 170px;height: 120px;border-radius: 2px;
+	}
+.rightInwardTop table tr th:hover {-webkit-transform: scale(1.1); -moz-transform: scale(1.1); -o-transform: scale(1.1); -ms-transform: scale(1.1); }
+.rightInwardTop table tr th:hover span{ opacity:0}
+.rightInwardTop table tr th span{
+       background:rgba(0, 0, 0, 0.5);color:#fff;border-bottom-left-radius: 2px;border-bottom-right-radius: 2px;line-height: 23px;position:absolute;bottom: 3px;width: 170px;left:0;font-size:12px;-webkit-transition: all 0.5s; -moz-transition: all 0.5s; -o-transition: all 0.5s; -ms-transition: all 0.5s;
     }
 .rightInwardTop table tr td {
         width:200px;
@@ -165,6 +175,16 @@
 .rightInwardCenter table tr th {
         width:200px;
         height:200px;
+		margin:0 6px;position:relative;list-style:none;
+		-webkit-transition: all 0.5s; -moz-transition: all 0.5s; -o-transition: all 0.5s;
+    }
+.rightInwardCenter table tr th img{
+		width: 170px;height: 120px;border-radius: 2px;
+	}
+.rightInwardCenter table tr th:hover {-webkit-transform: scale(1.1); -moz-transform: scale(1.1); -o-transform: scale(1.1); -ms-transform: scale(1.1); }
+.rightInwardCenter table tr th:hover span{ opacity:0}
+.rightInwardCenter table tr th span{
+       background:rgba(0, 0, 0, 0.5);color:#fff;border-bottom-left-radius: 2px;border-bottom-right-radius: 2px;line-height: 23px;position:absolute;bottom: 3px;width: 170px;left:0;font-size:12px;-webkit-transition: all 0.5s; -moz-transition: all 0.5s; -o-transition: all 0.5s; -ms-transition: all 0.5s;
     }
 .rightInwardCenter table tr td {
         width:200px;
@@ -173,6 +193,16 @@
 .rightInwardDown table tr th {
         width:200px;
         height:200px;
+		margin:0 6px;position:relative;list-style:none;
+		-webkit-transition: all 0.5s; -moz-transition: all 0.5s; -o-transition: all 0.5s;
+    }
+.rightInwardDown table tr th img{
+		width: 170px;height: 120px;border-radius: 2px;
+	}
+.rightInwardDown table tr th:hover {-webkit-transform: scale(1.1); -moz-transform: scale(1.1); -o-transform: scale(1.1); -ms-transform: scale(1.1); }
+.rightInwardDown table tr th:hover span{ opacity:0}
+.rightInwardDown table tr th span{
+       background:rgba(0, 0, 0, 0.5);color:#fff;border-bottom-left-radius: 2px;border-bottom-right-radius: 2px;line-height: 23px;position:absolute;bottom: 3px;width: 170px;left:0;font-size:12px;-webkit-transition: all 0.5s; -moz-transition: all 0.5s; -o-transition: all 0.5s; -ms-transition: all 0.5s;
     }
 .rightInwardDown table tr td {
         width:200px;
