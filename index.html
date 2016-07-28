@@ -27,7 +27,7 @@
     <!-- start-全局Div -->
     <div class = "global">
         <div  class = "service1" id="clickhere" title="计算器"><a href = "#"><img src="images/img/counter.jpg" style = "width: 100%;height:100%;"/></a></div>
-        <div  class = "service2"><a href = "#"><img src="images/img/2.jpg" style = "width: 100%;height:100%;"/></a></div>
+        <div  class = "service2" id="liuYan" title="留言板"><a href = "#"><img src="images/img/liuYanBan.png" style = "width: 100%;height:100%;"/></a></div>
         <div  class = "service3"><a href = "#"><img src="images/img/3.jpg" style = "width: 100%;height:100%;"/></a></div>
         <div  class = "service4"><a href = "#"><img src="images/img/4.jpg" style = "width: 100%;height:100%;"/></a></div>
         <div  class = "service5"><a href = "#"><img src="images/img/5.jpg" style = "width: 100%;height:100%;"/></a></div>
@@ -200,8 +200,8 @@
     <!-- stop-全局Div-->
 	<!-- start-计算器 -->
 	<!-- 显示窗口的地方 -->
-<div id="here"></div>
-<!-- 要嵌入到窗口的内容 -->
+	<div id="here"></div>
+	<!-- 要嵌入到窗口的内容 -->
 	<div id="login" style="display:none;">
 		<form action="#" method="post" onSubmit="return false;">
 			<div id="counter">
@@ -231,14 +231,29 @@
 			</div>
 		</form>
 	</div>
-<script type="text/javascript">
+	<script type="text/javascript">
+		var here = document.getElementById("here");
+		var login = document.getElementById("login");
+		var clickhere = document.getElementById("clickhere");
+		clickhere.onclick = function(){
+		here.appendChild(createdialog(287,232+5,login,"计算器",true));
+		}
+	</script>
+	<!-- stop-计算器 -->
+
+	<!-- start-留言板 -->
+	<!-- 要嵌入到窗口的内容 -->
+	<div id="liuYanBan" style="display:none;">
+			<textarea rows="12" cols="42" id="textarea1" style="float:left;margin-top:-2px;"></textarea>
+	</div>
+	<script type="text/javascript">
 	var here = document.getElementById("here");
-	var login = document.getElementById("login");
-	var clickhere = document.getElementById("clickhere");
-	clickhere.onclick = function(){
-	here.appendChild(createdialog(287,25+5,login,"计算器",true));
+	var liuYanBan = document.getElementById("liuYanBan");
+	var liuYan = document.getElementById("liuYan");
+	liuYan.onclick = function(){
+	here.appendChild(createdialog(312,184+30,liuYanBan,"留言板",true));
 	}
-</script>
-<!-- stop-计算器 -->
+	</script>
+	<!-- stop-留言板 -->
     </body>
 </html>
