@@ -26,11 +26,11 @@
     <body>
     <!-- start-全局Div -->
     <div class = "global">
-        <div  class = "service1" id="clickhere" title="计算器"><a href = "#"><img src="images/img/jisuanqi.png" style = "width: 100%;height:100%;"/></a>计算器</div>
-		<div  class = "service2" id="contactMes" title="联系我"><a href = "#"><img src="images/img/lianXiWo.png" style = "width: 100%;height:100%;"/></a>联系我</div>
-        <div  class = "service3" id="liuYan" title="留言板"><a href = "#"><img src="images/img/liuYanBan.png" style = "width: 100%;height:100%;"/></a>留言板</div>
-        <div  class = "service4" id="dynamicState" title="新动态"><a href = "#"><img src="images/img/dongTai.jpg" style = "width: 100%;height:100%;"/></a>新动态</div>
-        <div  class = "service5"><a href = "#"><img src="images/img/5.jpg" style = "width: 100%;height:100%;"/></a>###</div>
+        <div  class = "service1" id="clickhere" title="计算器" value="a" onMouseOver="brillancy1()" onMouseOut="darkness1()"><a href = "#"><img src="images/img/jisuanqi.png" style = "width: 100%;height:100%;"/></a>计算器</div>
+		<div  class = "service2" id="contactMes" title="联系我" value="b" onMouseOver="brillancy2()" onMouseOut="darkness2()"><a href = "#"><img src="images/img/lianXiWo.png" style = "width: 100%;height:100%;"/></a>联系我</div>
+        <div  class = "service3" id="liuYan" title="留言板" onMouseOver="brillancy3()" onMouseOut="darkness3()"><a href = "#"><img src="images/img/liuYanBan.png" style = "width: 100%;height:100%;"/></a>留言板</div>
+        <div  class = "service4" id="dynamicState" title="新动态" onMouseOver="brillancy4()" onMouseOut="darkness4()"><a href = "#"><img src="images/img/dongTai.jpg" style = "width: 100%;height:100%;"/></a>新动态</div>
+        <div  class = "service5" id="aaaaaa" title="aa" onMouseOver="brillancy5()" onMouseOut="darkness5()"><a href = "#"><img src="images/img/5.jpg" style = "width: 100%;height:100%;"/></a>###</div>
         <!-- start-全局内部Div-->
         <div class = "globalInward">
             <!-- start-网页顶层 -->
@@ -262,7 +262,7 @@
 	<div id="contactMe" style="display:none;">
 			<div style="width:100%;float:left;margin-top:15px;">
 				<ul>
-					<li style="color:#6C6C6C;">&nbsp;&nbsp;手机号码：13141278993</li>
+					<li style="color:#6C6C6C;">&nbsp;&nbsp;手机号码：<span style="color:red;">13141278993</span></li>
 					<li><a href="tencent://message/?uin=617445014&websiteName=qzone.qq.com&Menu=yes" title="contact me" target="_blank" >&nbsp;&nbsp;QQ联系我</a></li>
 					<li style="color:#6C6C6C;">&nbsp;&nbsp;如果本人没能及时回复您，请进入留言板留言,</p>&nbsp;&nbsp;谢谢合作！</li>
 				</ul>
@@ -271,7 +271,7 @@
 	<script type="text/javascript">
 	var here = document.getElementById("here");
 	var contactMe = document.getElementById("contactMe");
-	var contactMes = document.getElementById("contactMes"); 
+	var contactMes = document.getElementById("contactMes");
 	contactMes.onclick = function(){
 	here.appendChild(createdialog(312,100+30,contactMe,"联系我",true));
 	}

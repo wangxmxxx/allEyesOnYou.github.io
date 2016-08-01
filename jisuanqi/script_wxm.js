@@ -194,3 +194,44 @@ function createdialog(width,height,bodycontent,title,removeable){
 		return dialog;	
 	}//end if(if的结束)
 }
+
+		function brillancy1(){
+			var service1 = document.getElementById('clickhere');
+			service1.style.opacity="1";
+		}
+		function darkness1(){
+			var service1 = document.getElementById('clickhere');
+			service1.style.opacity="0.5";
+		}
+		function brillancy2(){
+			var service2 = document.getElementById('contactMes');
+			service2.style.opacity="1";
+		}
+		function darkness2(){
+			var service2 = document.getElementById('contactMes');
+			service2.style.opacity="0.5";
+		}
+		function brillancy3(){
+			var service3 = document.getElementById('liuYan');
+			service3.style.opacity="1";
+		}
+		function darkness3(){
+			var service3 = document.getElementById('liuYan');
+			service3.style.opacity="0.5";
+		}
+		function brillancy4(){
+			var service4 = document.getElementById('dynamicState');
+			service4.style.opacity="1";
+		}
+		function darkness4(){
+			var service4 = document.getElementById('dynamicState');
+			service4.style.opacity="0.5";
+		}
+		function brillancy5(){
+			var service5 = document.getElementById('aaaaaa');
+			service5.style.opacity="1";
+		}
+		function darkness5(){
+			var service5 = document.getElementById('aaaaaa');
+			service5.style.opacity="0.5";
+		}
