@@ -28,7 +28,7 @@
     <div class = "global">
         <div  class = "service1" id="clickhere" title="计算器"><a href = "#"><img src="images/img/jisuanqi.png" style = "width: 100%;height:100%;"/></a></div>
         <div  class = "service2" id="liuYan" title="留言板"><a href = "#"><img src="images/img/liuYanBan.png" style = "width: 100%;height:100%;"/></a></div>
-        <div  class = "service3"><a href = "#"><img src="images/img/3.jpg" style = "width: 100%;height:100%;"/></a></div>
+        <div  class = "service3" id="contactMes" title="联系我"><a href = "#"><img src="images/img/lianXiWo.png" style = "width: 100%;height:100%;"/></a></div>
         <div  class = "service4"><a href = "#"><img src="images/img/4.jpg" style = "width: 100%;height:100%;"/></a></div>
         <div  class = "service5"><a href = "#"><img src="images/img/5.jpg" style = "width: 100%;height:100%;"/></a></div>
         <!-- start-全局内部Div-->
@@ -255,5 +255,25 @@
 	}
 	</script>
 	<!-- stop-留言板 -->
+	
+	<!-- start-联系我 -->
+	<!-- 要嵌入到窗口的内容 -->
+	<div id="contactMe" style="display:none;">
+			<div style="width:100%;float:left;margin-top:15px;">
+				<ul>
+					<li style="color:#6C6C6C;">&nbsp;&nbsp;手机号码：13141278993</p></li>
+					<li><a href="tencent://message/?uin=617445014&websiteName=qzone.qq.com&Menu=yes" title="contact me" target="_blank" style="color:#FF359A;">&nbsp;&nbsp;QQ联系我</a></li>
+				</ul>
+			</div>
+	</div>
+	<script type="text/javascript">
+	var here = document.getElementById("here");
+	var contactMe = document.getElementById("contactMe");
+	var contactMes = document.getElementById("contactMes");
+	contactMes.onclick = function(){
+	here.appendChild(createdialog(312,70+30,contactMe,"联系我",true));
+	}
+	</script>
+	<!-- stop-联系我 -->
     </body>
 </html>
