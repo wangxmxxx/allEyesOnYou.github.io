@@ -9,37 +9,47 @@
 .service1 {
         width:51px;
         height:51px;
-        margin-top:200px;
-        position:fixed;
+        margin-top:150px;
+        position:fixed; /* div位置固定，不随滚动条移动 */
         right:30px;
+		color:#6C6C6C;
+		text-align:center;  
     }
 .service2 {
         width:51px;
         height:51px;
-        margin-top:250px;
+        margin-top:220px;
         position:fixed;
         right:30px;
+		color:#6C6C6C;
+		text-align:center;
     }
 .service3 {
         width:51px;
         height:51px;
-        margin-top:300px;
+        margin-top:290px;
         position:fixed;
         right:30px;
+		color:#6C6C6C;
+		text-align:center;
     }
 .service4 {
         width:51px;
         height:51px;
-        margin-top:350px;
+        margin-top:360px;
         position:fixed;
         right:30px;
+		color:#6C6C6C;
+		text-align:center;
     }
 .service5 {
         width:51px;
         height:51px;
-        margin-top:400px;
+        margin-top:430px;
         position:fixed;
         right:30px;
+		color:#6C6C6C;
+		text-align:center;
     }
 .globalInward {
         border: 0px solid #CDC28D;
