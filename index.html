@@ -30,12 +30,12 @@
 		<div  class = "service2" id="contactMes" title="联系我" value="b" onMouseOver="brillancy2()" onMouseOut="darkness2()"><a href = "#"><img src="images/img/lianXiWo.png" style = "width: 100%;height:100%;"/></a>联系我</div>
         <div  class = "service3" id="liuYan" title="留言板" onMouseOver="brillancy3()" onMouseOut="darkness3()"><a href = "#"><img src="images/img/liuYanBan.png" style = "width: 100%;height:100%;"/></a>留言板</div>
         <div  class = "service4" id="dynamicState" title="新动态" onMouseOver="brillancy4()" onMouseOut="darkness4()"><a href = "#"><img src="images/img/dongTai.jpg" style = "width: 100%;height:100%;"/></a>新动态</div>
-        <div  class = "service5" id="aaaaaa" title="aa" onMouseOver="brillancy5()" onMouseOut="darkness5()"><a href = "#"><img src="images/img/5.jpg" style = "width: 100%;height:100%;"/></a>###</div>
+        <div  class = "service5" id="shangLeGou" title="尚乐购" onMouseOver="brillancy5()" onMouseOut="darkness5()"><a href = "#"><img src="images/img/slg_shangLeGou.png" style = "width: 100%;height:100%;"/></a>尚乐购</div>
         <!-- start-全局内部Div-->
         <div class = "globalInward">
             <!-- start-网页顶层 -->
             <div class = "roof">
-              <img src="images/top.jpg" style = "width: 100%;height:100%;"/>
+				<img src="images/top.jpg" style = "width: 100%;height:100%;"/>
             </div>
             <!-- stop-网页顶层 -->
             <!-- start-左侧整体div-->
@@ -269,12 +269,12 @@
 		</div>
 	</div>
 	<script type="text/javascript">
-	var here = document.getElementById("here");
-	var contactMe = document.getElementById("contactMe");
-	var contactMes = document.getElementById("contactMes");
-	contactMes.onclick = function(){
-	here.appendChild(createdialog(312,100+30,contactMe,"联系我",true));
-	}
+		var here = document.getElementById("here");
+		var contactMe = document.getElementById("contactMe");
+		var contactMes = document.getElementById("contactMes");
+		contactMes.onclick = function(){
+		here.appendChild(createdialog(312,100+30,contactMe,"联系我",true));
+		}
 	</script>
 	<!-- stop-联系我 -->
 	
@@ -296,5 +296,24 @@
 		}
 	</script>
 	<!-- stop-新动态 -->
+	
+	<!-- start-尚乐购 -->
+	<!-- 要嵌入到窗口的内容 -->
+	<div id="shangLeGous" style="display:none;">
+		<div style="width:100%;float:left;margin-top:15px;">
+			<ul>
+				<li style="color:#6C6C6C;">&nbsp;&nbsp;&nbsp;尚乐购超市，开业于 xxxx年x月x日，本店以服务广大群众为基本理念，物品价格便宜，只为方便百姓生活起居，取得一个双赢的局面。本店位于黄梅县分路镇分路街口旁。</li>
+			</ul>
+		</div>
+	</div>
+	<script type="text/javascript">
+		var here = document.getElementById("here");
+		var shangLeGous = document.getElementById("shangLeGous");
+		var shangLeGou = document.getElementById("shangLeGou");
+		shangLeGou.onclick = function(){
+		here.appendChild(createdialog(312,100+30,shangLeGous,"尚乐购",true));
+		}
+	</script>
+	<!-- stop-尚乐购 -->
     </body>
 </html>

@@ -194,7 +194,7 @@ function createdialog(width,height,bodycontent,title,removeable){
 		return dialog;	
 	}//end if(if的结束)
 }
-		/* 动态改变固定图片的透明度 opacity = "0~1" 0为纯透明 1为不透明*/
+		/* 动态改变固定图片的透明度 opacity = "0~1" 0为纯透明 1为不透明 */
 		function brillancy1(){
 			var service1 = document.getElementById('clickhere');
 			service1.style.opacity="1";
@@ -228,10 +228,10 @@ function createdialog(width,height,bodycontent,title,removeable){
 			service4.style.opacity="0.5";
 		}
 		function brillancy5(){
-			var service5 = document.getElementById('aaaaaa');
+			var service5 = document.getElementById('shangLeGou');
 			service5.style.opacity="1";
 		}
 		function darkness5(){
-			var service5 = document.getElementById('aaaaaa');
+			var service5 = document.getElementById('shangLeGou');
 			service5.style.opacity="0.5";
 		}
