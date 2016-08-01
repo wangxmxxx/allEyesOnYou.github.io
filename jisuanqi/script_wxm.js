@@ -194,7 +194,7 @@ function createdialog(width,height,bodycontent,title,removeable){
 		return dialog;	
 	}//end if(if的结束)
 }
-
+		/* 动态改变固定图片的透明度 opacity = "0~1" 0为纯透明 1为不透明*/
 		function brillancy1(){
 			var service1 = document.getElementById('clickhere');
 			service1.style.opacity="1";
