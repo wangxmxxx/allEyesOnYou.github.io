@@ -26,12 +26,16 @@
     <body>
     <!-- start-全局Div -->
     <div class = "global">
-        <div  class = "service1" id="clickhere" title="计算器" value="a" onMouseOver="brillancy1()" onMouseOut="darkness1()"><a href = "#"><img src="images/img/jisuanqi.png" style = "width: 100%;height:100%;"/></a>计算器</div>
-		<div  class = "service2" id="contactMes" title="联系我" value="b" onMouseOver="brillancy2()" onMouseOut="darkness2()"><a href = "#"><img src="images/img/lianXiWo.png" style = "width: 100%;height:100%;"/></a>联系我</div>
-        <div  class = "service3" id="liuYan" title="留言板" onMouseOver="brillancy3()" onMouseOut="darkness3()"><a href = "#"><img src="images/img/liuYanBan.png" style = "width: 100%;height:100%;"/></a>留言板</div>
-        <div  class = "service4" id="dynamicState" title="新动态" onMouseOver="brillancy4()" onMouseOut="darkness4()"><a href = "#"><img src="images/img/dongTai.jpg" style = "width: 100%;height:100%;"/></a>新动态</div>
-        <div  class = "service5" id="shangLeGou" title="尚乐购" onMouseOver="brillancy5()" onMouseOut="darkness5()"><a href = "#"><img src="images/img/slg_shangLeGou.png" style = "width: 100%;height:100%;"/></a>尚乐购</div>
-        <!-- start-全局内部Div-->
+		<div id="wxm" class = "wxm">
+			<div  class = "service1" id="clickhere" title="计算器" onMouseOver="brillancy1()" onMouseOut="darkness1()"><img src="images/img/jisuanqi.png" style = "width: 100%;height:100%;"/>计算器</div>
+			<div  class = "service2" id="contactMes" title="联系我" onMouseOver="brillancy2()" onMouseOut="darkness2()"><img src="images/img/lianXiWo.png" style = "width: 100%;height:100%;"/>联系我</div>
+			<div  class = "service3" id="liuYan" title="留言板" onMouseOver="brillancy3()" onMouseOut="darkness3()"><img src="images/img/liuYanBan.png" style = "width: 100%;height:100%;"/>留言板</div>
+			<div  class = "service4" id="dynamicState" title="新动态" onMouseOver="brillancy4()" onMouseOut="darkness4()"><img src="images/img/dongTai.jpg" style = "width: 100%;height:100%;"/>新动态</div>
+			<div  class = "service5" id="shangLeGou" title="尚乐购" onMouseOver="brillancy5()" onMouseOut="darkness5()"><img src="images/img/slg_shangLeGou.png" style = "width: 100%;height:100%;"/>尚乐购</div>
+		</div>
+			<!-- <div  class = "service6" id="rightPng" title="显示" value="显示" onMouseOver="brillancy6()" onMouseOut="darkness6()"><a href="#"><img src="images/img/right.png" style = "width: 100%;height:100%;"/></a></div> -->
+			<div  class = "service7" id="leftPng" title="隐藏" onMouseOver="brillancy7()" onMouseOut="darkness7()"><img src="images/img/left.png" id="caocao_pic" onClick="change_pic()" style = "width: 100%;height:100%;"></div>
+		<!-- start-全局内部Div-->
         <div class = "globalInward">
             <!-- start-网页顶层 -->
             <div class = "roof">
@@ -51,17 +55,17 @@
                     <div class = "leftIntroTop">
                         <ul style="margin-left:0px;">
                             <li>&nbsp;<b><a href = "spik/li_1.html" style = "font-size:13px;color:red;">购物导航</a></b></li>
-                            <li>&nbsp;<b><a href = "#" style = "font-size:10px;">厨具</a></b>&nbsp;<a href = "#">炒锅</a><span class = "spanColor">|</span><a href = "#">平底锅</a><span class = "spanColor">|</span><a href = "#">铲子</a><span class = "spanColor">|</span><a href = "#">漏勺</a><span class = "spanColor">|</span><a href = "#">砂锅</a><span class = "spanStyle"><a href = "#">>></a></span></li>
-                            <li>&nbsp;<b><a href = "#" style = "font-size:10px;">餐具</a></b>&nbsp;<a href = "#">碗</a><span class = "spanColor">|</span><a href = "#">盘子</a><span class = "spanColor">|</span><a href = "#">筷子</a><span class = "spanColor">|</span><a href = "#">汤匙</a><span class = "spanColor">|</span><a href = "#">儿童餐具</a><span class = "spanStyle"><a href = "#">>></a></span></li>
-                            <li>&nbsp;<b><a href = "#" style = "font-size:10px;">零食</a></b>&nbsp;<a href = "#">酸</a><span class = "spanColor">|</span><a href = "#">甜</a><span class = "spanColor">|</span><a href = "#">香</a><span class = "spanColor">|</span><a href = "#">辣</a><span class = "spanColor">|</span><a href = "#">咸</a><span class = "spanStyle"><a href = "#">>></a></span></li>
-                            <li>&nbsp;<b><a href = "#" style = "font-size:10px;">烟酒</a></b>&nbsp;<a href = "#">烟具</a><span class = "spanColor">|</span><a href = "#">香烟</a><span class = "spanColor">|</span><a href = "#">啤酒</a><span class = "spanColor">|</span><a href = "#">红酒</a><span class = "spanColor">|</span><a href = "#">白酒</a><span class = "spanStyle"><a href = "#">>></a></span></li>
-                            <li>&nbsp;<b><a href = "#" style = "font-size:10px;">蔬菜</a></b>&nbsp;<a href = "#">瓜果</a><span class = "spanColor">|</span><a href = "#">青菜</a><span class = "spanColor">|</span><a href = "#">辣椒</a><span class = "spanColor">|</span><a href = "#">冷冻产品</a><span class = "spanStyle"><a href = "#">>></a></span></li>
-                            <li>&nbsp;<b><a href = "#" style = "font-size:10px;">水果</a></b>&nbsp;<a href = "#">桃子</a><span class = "spanColor">|</span><a href = "#">苹果</a><span class = "spanColor">|</span><a href = "#">火龙果</a><span class = "spanColor">|</span><a href = "#">香蕉</a><span class = "spanColor">|</span><a href = "#">荔枝</a><span class = "spanStyle"><a href = "#">>></a></span></li>
-                            <li>&nbsp;<b><a href = "#" style = "font-size:10px;">干货</a></b>&nbsp;<a href = "#">银耳</a><span class = "spanColor">|</span><a href = "#">葡萄干</a><span class = "spanColor">|</span><a href = "#">莲子</a><span class = "spanColor">|</span><a href = "#">干墨鱼</a><span class = "spanColor">|</span><a href = "#">桂圆</a><span class = "spanStyle"><a href = "#">>></a></span></li>
-                            <li>&nbsp;<b><a href = "#" style = "font-size:10px;">饮料</a></b>&nbsp;<a href = "#">纯净水</a><span class = "spanColor">|</span><a href = "#">果汁</a><span class = "spanColor">|</span><a href = "#">苏打水</a><span class = "spanColor">|</span><a href = "#">碳酸饮料</a><span class = "spanStyle"><a href = "#">>></a></span></li>
-                            <li>&nbsp;<b><a href = "#" style = "font-size:10px;">玩具</a></b>&nbsp;<a href = "#">飞机模型</a><span class = "spanColor">|</span><a href = "#">芭比娃娃</a><span class = "spanColor">|</span><a href = "#">军舰</a><span class = "spanColor">|</span><a href = "#">积木</a><span class = "spanStyle"><a href = "#">>></a></span></li>
-                            <li>&nbsp;<b><a href = "#" style = "font-size:10px;">日用品</a></b>&nbsp;<a href = "#">洗衣液</a><span class = "spanColor">|</span><a href = "#">钢丝球</a><span class = "spanColor">|</span><a href = "#">牙具</a><span class = "spanColor">|</span><a href = "#">洗发水</a><span class = "spanStyle"><a href = "#">>></a></span></li>
-							<li>&nbsp;<b><a href = "#" style = "font-size:10px;">促销减价大甩卖</a></b><span class = "spanStyle"><a href = "#">>></a></span></li>
+                            <li>&nbsp;<b><a href = "#">厨具</a></b>&nbsp;<a href = "#">炒锅</a><span class = "spanColor">|</span><a href = "#">平底锅</a><span class = "spanColor">|</span><a href = "#">铲子</a><span class = "spanColor">|</span><a href = "#">漏勺</a><span class = "spanColor">|</span><a href = "#">砂锅</a><span class = "spanStyle"><a href = "#">>></a></span></li>
+                            <li>&nbsp;<b><a href = "#">餐具</a></b>&nbsp;<a href = "#">碗</a><span class = "spanColor">|</span><a href = "#">盘子</a><span class = "spanColor">|</span><a href = "#">筷子</a><span class = "spanColor">|</span><a href = "#">汤匙</a><span class = "spanColor">|</span><a href = "#">儿童餐具</a><span class = "spanStyle"><a href = "#">>></a></span></li>
+                            <li>&nbsp;<b><a href = "#">零食</a></b>&nbsp;<a href = "#">酸</a><span class = "spanColor">|</span><a href = "#">甜</a><span class = "spanColor">|</span><a href = "#">香</a><span class = "spanColor">|</span><a href = "#">辣</a><span class = "spanColor">|</span><a href = "#">咸</a><span class = "spanStyle"><a href = "#">>></a></span></li>
+                            <li>&nbsp;<b><a href = "#">烟酒</a></b>&nbsp;<a href = "#">烟具</a><span class = "spanColor">|</span><a href = "#">香烟</a><span class = "spanColor">|</span><a href = "#">啤酒</a><span class = "spanColor">|</span><a href = "#">红酒</a><span class = "spanColor">|</span><a href = "#">白酒</a><span class = "spanStyle"><a href = "#">>></a></span></li>
+                            <li>&nbsp;<b><a href = "#">蔬菜</a></b>&nbsp;<a href = "#">瓜果</a><span class = "spanColor">|</span><a href = "#">青菜</a><span class = "spanColor">|</span><a href = "#">辣椒</a><span class = "spanColor">|</span><a href = "#">冷冻产品</a><span class = "spanStyle"><a href = "#">>></a></span></li>
+                            <li>&nbsp;<b><a href = "#">水果</a></b>&nbsp;<a href = "#">桃子</a><span class = "spanColor">|</span><a href = "#">苹果</a><span class = "spanColor">|</span><a href = "#">火龙果</a><span class = "spanColor">|</span><a href = "#">香蕉</a><span class = "spanColor">|</span><a href = "#">荔枝</a><span class = "spanStyle"><a href = "#">>></a></span></li>
+                            <li>&nbsp;<b><a href = "#">干货</a></b>&nbsp;<a href = "#">银耳</a><span class = "spanColor">|</span><a href = "#">葡萄干</a><span class = "spanColor">|</span><a href = "#">莲子</a><span class = "spanColor">|</span><a href = "#">干墨鱼</a><span class = "spanColor">|</span><a href = "#">桂圆</a><span class = "spanStyle"><a href = "#">>></a></span></li>
+                            <li>&nbsp;<b><a href = "#">饮料</a></b>&nbsp;<a href = "#">纯净水</a><span class = "spanColor">|</span><a href = "#">果汁</a><span class = "spanColor">|</span><a href = "#">苏打水</a><span class = "spanColor">|</span><a href = "#">碳酸饮料</a><span class = "spanStyle"><a href = "#">>></a></span></li>
+                            <li>&nbsp;<b><a href = "#">玩具</a></b>&nbsp;<a href = "#">飞机模型</a><span class = "spanColor">|</span><a href = "#">芭比娃娃</a><span class = "spanColor">|</span><a href = "#">军舰</a><span class = "spanColor">|</span><a href = "#">积木</a><span class = "spanStyle"><a href = "#">>></a></span></li>
+                            <li>&nbsp;<b><a href = "#">日用品</a></b>&nbsp;<a href = "#">洗衣液</a><span class = "spanColor">|</span><a href = "#">钢丝球</a><span class = "spanColor">|</span><a href = "#">牙具</a><span class = "spanColor">|</span><a href = "#">洗发水</a><span class = "spanStyle"><a href = "#">>></a></span></li>
+							<li>&nbsp;<b><a href = "#">促销减价大甩卖</a></b><span class = "spanStyle"><a href = "#">>></a></span></li>
 						</ul>
                     </div>
                     <!-- stop-左侧简介上部-div-->
@@ -132,10 +136,10 @@
                 <div class = "rightInwardCenter">
                     <table>
                         <tr>
-                            <th><img src="images/img/6.jpg" style = "width: 100%;height:100%;"/><span>鼠标悬停</span></th>
-                            <th><img src="images/img/7.jpg" style = "width: 100%;height:100%;"/><span>鼠标悬停</span></th>
+                            <th><img src="images/img/6.jpg"  style = "width: 100%;height:100%;"/><span>鼠标悬停</span></th>
+                            <th><img src="images/img/7.jpg"  style = "width: 100%;height:100%;"/><span>鼠标悬停</span></th>
                             <th><img src="images/img/20.jpg" style = "width: 100%;height:100%;"/><span>鼠标悬停</span></th>
-                            <th><img src="images/img/9.jpg" style = "width: 100%;height:100%;"/><span>鼠标悬停</span></th>
+                            <th><img src="images/img/9.jpg"  style = "width: 100%;height:100%;"/><span>鼠标悬停</span></th>
                             <th><img src="images/img/10.jpg" style = "width: 100%;height:100%;"/><span>鼠标悬停</span></th>
                         </tr>
                         <tr>
@@ -237,7 +241,7 @@
 		var login = document.getElementById("login");
 		var clickhere = document.getElementById("clickhere");
 		clickhere.onclick = function(){
-		here.appendChild(createdialog(287,232+5,login,"计算器",true));
+		here.appendChild(createdialog(285,231+5,login,"计算器",true));
 		}
 	</script>
 	<!-- stop-计算器 -->
@@ -264,7 +268,7 @@
 			<ul>
 				<li style="color:#6C6C6C;">&nbsp;&nbsp;手机号码：<span style="color:red;">13141278993</span></li>
 				<li><a href="tencent://message/?uin=617445014&websiteName=qzone.qq.com&Menu=yes" title="contact me" target="_blank" >&nbsp;&nbsp;QQ联系我</a></li>
-				<li style="color:#6C6C6C;">&nbsp;&nbsp;如果本人没能及时回复您，请进入留言板留言,</p>&nbsp;&nbsp;谢谢合作！</li>
+				<li style="color:#6C6C6C;">&nbsp;&nbsp;如果本人没能及时回复您，请进入<a href="#" id="liuYan">留言板</a>留言,</p>&nbsp;&nbsp;谢谢合作！</li>
 			</ul>
 		</div>
 	</div>

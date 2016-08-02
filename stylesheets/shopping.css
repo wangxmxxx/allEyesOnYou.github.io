@@ -3,15 +3,21 @@
         /* border: 1px solid #CDC28D; */
         background-color: #F2F9FD;
         width: 100%;
-        height:1177px;
+        height:1277px;
         float:left;
     }
+.wxm{
+		width:51px;
+        height:357px;
+        margin-top:100px;
+        position:fixed; /* div位置固定，不随滚动条移动 */
+        left:10px;
+	}
 .service1 {
         width:51px;
         height:51px;
-        margin-top:150px;
         position:fixed; /* div位置固定，不随滚动条移动 */
-        right:30px;
+        left:10px;
 		color:#6C6C6C;
 		text-align:center;  
 		opacity:0.5;
@@ -19,9 +25,9 @@
 .service2 {
         width:51px;
         height:51px;
-        margin-top:220px;
+        margin-top:70px;
         position:fixed;
-        right:30px;
+        left:10px;
 		color:#6C6C6C;
 		text-align:center;
 		opacity:0.5;
@@ -29,9 +35,9 @@
 .service3 {
         width:51px;
         height:51px;
-        margin-top:290px;
+        margin-top:140px;
         position:fixed;
-        right:30px;
+        left:10px;
 		color:#6C6C6C;
 		text-align:center;
 		opacity:0.5;
@@ -39,9 +45,9 @@
 .service4 {
         width:51px;
         height:51px;
-        margin-top:360px;
+        margin-top:210px;
         position:fixed;
-        right:30px;
+        left:10px;
 		color:#6C6C6C;
 		text-align:center;
 		opacity:0.5;
@@ -49,9 +55,29 @@
 .service5 {
         width:51px;
         height:51px;
-        margin-top:430px;
+        margin-top:280px;
         position:fixed;
-        right:30px;
+        left:10px;
+		color:#6C6C6C;
+		text-align:center;
+		opacity:0.5;
+    }
+.service6 {
+        width:51px;
+        height:51px;
+        margin-top:455px;
+        position:fixed;
+        left:10px;
+		color:#6C6C6C;
+		text-align:center;
+		opacity:0.5;
+    }
+.service7 {
+        width:51px;
+        height:51px;
+        margin-top:455px;
+        position:fixed;
+        left:10px;
 		color:#6C6C6C;
 		text-align:center;
 		opacity:0.5;
@@ -67,7 +93,7 @@
         border: 0px solid #CDC28D;
         float: left;
         width: 100%;
-        height: 10%;
+        height: 20%;
     }
 .leftGlobal {
         float: left;
@@ -127,7 +153,7 @@
 .leftIntroTop ul li{
         line-height:25px;
     }
-.leftIntroTop ul li a{color: #333333;text-decoration:none;}
+.leftIntroTop ul li a{color: #333333;text-decoration:none;font-size:10px;}
 .leftIntroTop ul li a:link{color: #000000} /* 未访问时的颜色 */
 .leftIntroTop ul li a:hover{color:#ff0000} /* 鼠标悬浮时的颜色 */
 .leftIntroTop ul li a:active{color:#9932CC} /* 被选择时的颜色 */
@@ -170,25 +196,21 @@
 		margin-top:15px;
 }
 .rightInwardTop table tr th {
-        width:200px;
         height:200px;
 		margin:0 6px;position:relative;list-style:none;
 		-webkit-transition: all 0.5s; -moz-transition: all 0.5s; -o-transition: all 0.5s;
     }
-.rightInwardTop table tr th img{
-		width: 170px;height: 120px;border-radius: 2px;
-	}
 .rightInwardTop table tr th:hover {-webkit-transform: scale(1.1); -moz-transform: scale(1.1); -o-transform: scale(1.1); -ms-transform: scale(1.1); }
 .rightInwardTop table tr th:hover span{ opacity:0}
 .rightInwardTop table tr th span{
-       background:rgba(0, 0, 0, 0.5);color:#fff;border-bottom-left-radius: 2px;border-bottom-right-radius: 2px;line-height: 23px;position:absolute;bottom: 3px;width: 170px;left:0;font-size:12px;-webkit-transition: all 0.5s; -moz-transition: all 0.5s; -o-transition: all 0.5s; -ms-transition: all 0.5s;
+		text-align:center;
+        background:rgba(0, 0, 0, 0.5);color:#fff;border-bottom-left-radius: 2px;border-bottom-right-radius: 2px;line-height: 23px;position:absolute;bottom: 3px;width: 158px;left:0;font-size:12px;-webkit-transition: all 0.5s; -moz-transition: all 0.5s; -o-transition: all 0.5s; -ms-transition: all 0.5s;
     }
 .rightInwardTop table tr td {
         width:200px;
         height:43px;
     }
 .rightInwardCenter table tr th {
-        width:200px;
         height:200px;
 		margin:0 6px;position:relative;list-style:none;
 		-webkit-transition: all 0.5s; -moz-transition: all 0.5s; -o-transition: all 0.5s;
@@ -199,14 +221,14 @@
 .rightInwardCenter table tr th:hover {-webkit-transform: scale(1.1); -moz-transform: scale(1.1); -o-transform: scale(1.1); -ms-transform: scale(1.1); }
 .rightInwardCenter table tr th:hover span{ opacity:0}
 .rightInwardCenter table tr th span{
-       background:rgba(0, 0, 0, 0.5);color:#fff;border-bottom-left-radius: 2px;border-bottom-right-radius: 2px;line-height: 23px;position:absolute;bottom: 3px;width: 170px;left:0;font-size:12px;-webkit-transition: all 0.5s; -moz-transition: all 0.5s; -o-transition: all 0.5s; -ms-transition: all 0.5s;
+		text-align:center;
+        background:rgba(0, 0, 0, 0.5);color:#fff;border-bottom-left-radius: 2px;border-bottom-right-radius: 2px;line-height: 23px;position:absolute;bottom: 3px;width: 158px;left:0;font-size:12px;-webkit-transition: all 0.5s; -moz-transition: all 0.5s; -o-transition: all 0.5s; -ms-transition: all 0.5s;
     }
 .rightInwardCenter table tr td {
         width:200px;
         height:43px;
     }
 .rightInwardDown table tr th {
-        width:200px;
         height:200px;
 		margin:0 6px;position:relative;list-style:none;
 		-webkit-transition: all 0.5s; -moz-transition: all 0.5s; -o-transition: all 0.5s;
@@ -217,7 +239,8 @@
 .rightInwardDown table tr th:hover {-webkit-transform: scale(1.1); -moz-transform: scale(1.1); -o-transform: scale(1.1); -ms-transform: scale(1.1); }
 .rightInwardDown table tr th:hover span{ opacity:0}
 .rightInwardDown table tr th span{
-       background:rgba(0, 0, 0, 0.5);color:#fff;border-bottom-left-radius: 2px;border-bottom-right-radius: 2px;line-height: 23px;position:absolute;bottom: 3px;width: 170px;left:0;font-size:12px;-webkit-transition: all 0.5s; -moz-transition: all 0.5s; -o-transition: all 0.5s; -ms-transition: all 0.5s;
+		text-align:center;
+        background:rgba(0, 0, 0, 0.5);color:#fff;border-bottom-left-radius: 2px;border-bottom-right-radius: 2px;line-height: 23px;position:absolute;bottom: 3px;width: 158px;left:0;font-size:12px;-webkit-transition: all 0.5s; -moz-transition: all 0.5s; -o-transition: all 0.5s; -ms-transition: all 0.5s;
     }
 .rightInwardDown table tr td {
         width:200px;
@@ -249,7 +272,7 @@
 .base {
         border: 0px solid red;
         height:38px;
-        margin-top:365px;
+        margin-top:465px;
         width:100%;
         background-color:#808080;
     }

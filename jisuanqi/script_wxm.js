@@ -149,7 +149,7 @@ function createdialog(width,height,bodycontent,title,removeable){
 		templeft = (document.body.clientWidth-width)/2;
 		temptop = (document.body.clientHeight-height)/2;
 		tempheight= height-30;
-	dialogcssText= "position:absolute;background:#65c294;padding:1px;border:4px;top:200px;left:"+templeft+"px;height:"+height+"px;width:"+width+"px;";
+		dialogcssText= "position:absolute;background:#33AED7;padding:1px;border:4px;top:200px;left:"+templeft+"px;height:"+height+"px;width:"+width+"px;";
 		dialogbodycssText = "width:100%;background:#ffffff;"+"height:" + tempheight + "px;";
 		dialog.style.cssText = dialogcssText;
 		dialogtitlebar.style.cssText = "height:30px;width:100%;background:url(/jscss/demoimg/201311/titlebar.png) repeat;cursor:move;";
@@ -235,3 +235,43 @@ function createdialog(width,height,bodycontent,title,removeable){
 			var service5 = document.getElementById('shangLeGou');
 			service5.style.opacity="0.5";
 		}
+		function brillancy6(){
+			var service6 = document.getElementById('rightPng');
+			service6.style.opacity="1";
+		}
+		function darkness6(){
+			var service6 = document.getElementById('rightPng');
+			service6.style.opacity="0.5";
+		}
+		function brillancy7(){
+			var service7 = document.getElementById('leftPng');
+			service7.style.opacity="1";
+		}
+		function darkness7(){
+			var service7 = document.getElementById('leftPng');
+			service7.style.opacity="0.5";
+		}
+		
+	/* 右侧固定DIV下方箭头切换 */
+		function change_pic(){
+		var imgObj = document.getElementById("caocao_pic");
+		if(imgObj.getAttribute("src",2)=="images/img/left.png"){
+		imgObj.src="images/img/right.png";
+		}else{
+		imgObj.src="images/img/left.png";
+		}
+		/* 每点击一次调用一次隐藏与显示的方法 */
+		runEffect();
+	}
+	
+	/*  控制右侧固定div的隐藏与显示 */
+		function runEffect() {
+			  var selectedEffect = 'drop';
+			  var options = {};
+			  if ( selectedEffect === "scale" ) {
+				options = { percent: 50 };
+			  } else if ( selectedEffect === "size" ) {
+				options = { to: { width: 200, height: 60 } };
+			  }
+			  $( "#wxm" ).toggle( selectedEffect, options, 500 );
+		};
