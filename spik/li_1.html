@@ -9,104 +9,112 @@
     <meta name="format-detection" content="telephone=no">
     <script type="text/javascript" src="../javascripts/jquery-1.8.3.min.js" charset="utf-8"></script>
     <script type="text/javascript" src="../javascripts/main.js"></script>
+	<script type="text/javascript" src="../javascripts/eson.min.js"></script>
+    <script type="text/javascript" src="../javascripts/nl.min.js"></script>
+	<script type="text/javascript" src="../javascripts/jquery-ui.js"></script>
     <link rel="stylesheet" type="text/css" media="screen" href="../stylesheets/shopping.css">
-<title>挚爱网-为你而建</title>
+	<link href="../stylesheets/style.css" type="text/css" rel="stylesheet" />
+    <link href="../stylesheets/eson.css" type="text/css" rel="stylesheet" />
+	
+	<script type="text/javascript" src="../jisuanqi/script_wxm.js"></script>
+	<link href="../jisuanqi/style_wxm.css" type="text/css" rel="stylesheet" />
+<title>尚乐购-购物导航</title>
 </head>
     <body onload=startclock();>
     <!-- start-全局Div -->
     <div class = "global">
+		<div id="wxm" class = "wxm">
+			<div  class = "service1" id="clickhere" title="计算器" onMouseOver="brillancy1()" onMouseOut="darkness1()"><a href="#"><img src="../images/img/jisuanqi.png" style = "width: 100%;height:100%;"/></a>计算器</div>
+			<div  class = "service2" id="contactMes" title="联系我" onMouseOver="brillancy2()" onMouseOut="darkness2()"><a href="#"><img src="../images/img/lianXiWo.png" style = "width: 100%;height:100%;"/></a>联系我</div>
+			<div  class = "service3" id="liuYan" title="留言板" onMouseOver="brillancy3()" onMouseOut="darkness3()"><a href="#"><img src="../images/img/liuYanBan.png" style = "width: 100%;height:100%;"/></a>留言板</div>
+			<div  class = "service4" id="dynamicState" title="新动态" onMouseOver="brillancy4()" onMouseOut="darkness4()"><a href="#"><img src="../images/img/dongTai.jpg" style = "width: 100%;height:100%;"/></a>新动态</div>
+			<div  class = "service5" id="shangLeGou" title="尚乐购" onMouseOver="brillancy5()" onMouseOut="darkness5()"><a href="#"><img src="../images/img/slg_shangLeGou.png" style = "width: 100%;height:100%;"/></a>尚乐购</div>
+		</div>
+			<div  class = "service7" id="leftPng" title="隐藏" onMouseOver="brillancy7()" onMouseOut="darkness7()"><img src="images/img/left.png" id="caocao_pic" onClick="change_pic()" style = "width: 100%;height:100%;"></div>
         <!-- start-全局内部Div-->
         <div class = "globalInward">
             <!-- start-网页顶层 -->
             <div class = "roof">
-                <img src="../images/5.jpg" style = "width: 100%;height:80px;"/>
+                <img src="../images/5.jpg" style = "width: 100%;height:100%;"/>
             </div>
             <!-- stop-网页顶层 -->
             
             <!-- start-右侧整体div-->
             <div class = "rightGlobals">
                 <!-- start-右侧内部上div-->
-                <div class = "rightInwardTop">
+                <div class = "PictureStyle">
 					<table>
 						<tr>
-							<th><img src="images/5.jpg" style = "width: 100%;height:100%;"/></th>
-							<th><img src="images/4.png" style = "width: 100%;height:100%;"/></th>
-							<th><img src="images/5.jpg" style = "width: 100%;height:100%;"/></th>
-							<th><img src="images/4.png" style = "width: 100%;height:100%;"/></th>
-							<th><img src="images/5.jpg" style = "width: 100%;height:100%;"/></th>
-							<th><img src="images/5.jpg" style = "width: 100%;height:100%;"/></th>
+							<th><img src="images/img/1.jpg" style = "width: 100%;height:100%;"/><span>鼠标悬停</span></th>
+                            <th><img src="images/img/2.jpg" style = "width: 100%;height:100%;"/><span>鼠标悬停</span></th>
+                            <th><img src="images/img/3.jpg" style = "width: 100%;height:100%;"/><span>鼠标悬停</span></th>
+                            <th><img src="images/img/4.jpg" style = "width: 100%;height:100%;"/><span>鼠标悬停</span></th>
+                            <th><img src="images/img/5.jpg" style = "width: 100%;height:100%;"/><span>鼠标悬停</span></th>
 						</tr>
 						<tr>
-							<td><div class = "price"><b>￥12.05元</b></div><div class = "referral">哈哈哈哈哈哈哈哈哈哈哈哈</div></td>
-							<td><div class = "price"><b>￥12.05元</b></div><div class = "referral">哈哈哈哈哈哈哈哈哈哈哈哈</div></td>
-							<td><div class = "price"><b>￥12.05元</b></div><div class = "referral">哈哈哈哈哈哈哈哈哈哈哈哈</div></td>
-							<td><div class = "price"><b>￥12.05元</b></div><div class = "referral">哈哈哈哈哈哈哈哈哈哈哈哈</div></td>
-							<td><div class = "price"><b>￥12.05元</b></div><div class = "referral">哈哈哈哈哈哈哈哈哈哈哈哈</div></td>
-							<td><div class = "price"><b>￥12.05元</b></div><div class = "referral">哈哈哈哈哈哈哈哈哈哈哈哈</div></td>
+							<td><div class = "price"><b>￥12.05元</b></div></td>
+                            <td><div class = "price"><b>￥12.05元</b></div></td>
+                            <td><div class = "price"><b>￥12.05元</b></div></td>
+                            <td><div class = "price"><b>￥12.05元</b></div></td>
+                            <td><div class = "price"><b>￥12.05元</b></div></td>
 						</tr>
 					</table>
                 </div>
                 <!-- stop-右侧内部上div-->
                 <!-- start-右侧内部中div-->
-                <div class = "rightInwardCenter">
+                <div class = "PictureStyle">
                     <table>
 						<tr>
-							<th><img src="images/5.jpg" style = "width: 100%;height:100%;"/></th>
-							<th><img src="images/4.png" style = "width: 100%;height:100%;"/></th>
-							<th><img src="images/5.jpg" style = "width: 100%;height:100%;"/></th>
-							<th><img src="images/4.png" style = "width: 100%;height:100%;"/></th>
-							<th><img src="images/5.jpg" style = "width: 100%;height:100%;"/></th>
-							<th><img src="images/5.jpg" style = "width: 100%;height:100%;"/></th>
+							<th><img src="images/img/6.jpg"  style = "width: 100%;height:100%;"/><span>鼠标悬停</span></th>
+                            <th><img src="images/img/7.jpg"  style = "width: 100%;height:100%;"/><span>鼠标悬停</span></th>
+                            <th><img src="images/img/20.jpg" style = "width: 100%;height:100%;"/><span>鼠标悬停</span></th>
+                            <th><img src="images/img/9.jpg"  style = "width: 100%;height:100%;"/><span>鼠标悬停</span></th>
+                            <th><img src="images/img/10.jpg" style = "width: 100%;height:100%;"/><span>鼠标悬停</span></th>
 						</tr>
 						<tr>
-							<td><div class = "price"><b>￥12.05元</b></div><div class = "referral">哈哈哈哈哈哈哈哈哈哈哈哈</div></td>
-							<td><div class = "price"><b>￥12.05元</b></div><div class = "referral">哈哈哈哈哈哈哈哈哈哈哈哈</div></td>
-							<td><div class = "price"><b>￥12.05元</b></div><div class = "referral">哈哈哈哈哈哈哈哈哈哈哈哈</div></td>
-							<td><div class = "price"><b>￥12.05元</b></div><div class = "referral">哈哈哈哈哈哈哈哈哈哈哈哈</div></td>
-							<td><div class = "price"><b>￥12.05元</b></div><div class = "referral">哈哈哈哈哈哈哈哈哈哈哈哈</div></td>
-							<td><div class = "price"><b>￥12.05元</b></div><div class = "referral">哈哈哈哈哈哈哈哈哈哈哈哈</div></td>
+							<td><div class = "price"><b>￥12.05元</b></div></td>
+                            <td><div class = "price"><b>￥12.05元</b></div></td>
+                            <td><div class = "price"><b>￥12.05元</b></div></td>
+                            <td><div class = "price"><b>￥12.05元</b></div></td>
+                            <td><div class = "price"><b>￥12.05元</b></div></td>
 						</tr>
 					</table>
                 </div>
                 <!-- stop-右侧内部中div-->
                 <!-- start-右侧内部下div-->
-                <div class = "rightInwardDown">
+                <div class = "PictureStyle">
                     <table>
 						<tr>
-							<th><img src="images/5.jpg" style = "width: 100%;height:100%;"/></th>
-							<th><img src="images/4.png" style = "width: 100%;height:100%;"/></th>
-							<th><img src="images/5.jpg" style = "width: 100%;height:100%;"/></th>
-							<th><img src="images/4.png" style = "width: 100%;height:100%;"/></th>
-							<th><img src="images/5.jpg" style = "width: 100%;height:100%;"/></th>
-							<th><img src="images/5.jpg" style = "width: 100%;height:100%;"/></th>
+							<th><img src="images/img/11.jpg" style = "width: 100%;height:100%;"/><span>鼠标悬停</span></th>
+                            <th><img src="images/img/12.jpg" style = "width: 100%;height:100%;"/><span>鼠标悬停</span></th>
+                            <th><img src="images/img/13.jpg" style = "width: 100%;height:100%;"/><span>鼠标悬停</span></th>
+                            <th><img src="images/img/14.jpg" style = "width: 100%;height:100%;"/><span>鼠标悬停</span></th>
+                            <th><img src="images/img/15.jpg" style = "width: 100%;height:100%;"/><span>鼠标悬停</span></th>
 						</tr>
 						<tr>
-							<td><div class = "price"><b>￥12.05元</b></div><div class = "referral">哈哈哈哈哈哈哈哈哈哈哈哈</div></td>
-							<td><div class = "price"><b>￥12.05元</b></div><div class = "referral">哈哈哈哈哈哈哈哈哈哈哈哈</div></td>
-							<td><div class = "price"><b>￥12.05元</b></div><div class = "referral">哈哈哈哈哈哈哈哈哈哈哈哈</div></td>
-							<td><div class = "price"><b>￥12.05元</b></div><div class = "referral">哈哈哈哈哈哈哈哈哈哈哈哈</div></td>
-							<td><div class = "price"><b>￥12.05元</b></div><div class = "referral">哈哈哈哈哈哈哈哈哈哈哈哈</div></td>
-							<td><div class = "price"><b>￥12.05元</b></div><div class = "referral">哈哈哈哈哈哈哈哈哈哈哈哈</div></td>
+							<td><div class = "price"><b>￥12.05元</b></div></td>
+                            <td><div class = "price"><b>￥12.05元</b></div></td>
+                            <td><div class = "price"><b>￥12.05元</b></div></td>
+                            <td><div class = "price"><b>￥12.05元</b></div></td>
+                            <td><div class = "price"><b>￥12.05元</b></div></td>
 						</tr>
 					</table>
                 </div>
-				<div class = "rightInwardDown">
+				<div class = "PictureStyle">
                     <table>
 						<tr>
-							<th><img src="images/5.jpg" style = "width: 100%;height:100%;"/></th>
-							<th><img src="images/4.png" style = "width: 100%;height:100%;"/></th>
-							<th><img src="images/5.jpg" style = "width: 100%;height:100%;"/></th>
-							<th><img src="images/4.png" style = "width: 100%;height:100%;"/></th>
-							<th><img src="images/5.jpg" style = "width: 100%;height:100%;"/></th>
-							<th><img src="images/5.jpg" style = "width: 100%;height:100%;"/></th>
+							<th><img src="images/img/16.jpg" style = "width: 100%;height:100%;"/><span>鼠标悬停</span></th>
+                            <th><img src="images/img/17.jpg" style = "width: 100%;height:100%;"/><span>鼠标悬停</span></th>
+                            <th><img src="images/img/18.jpg" style = "width: 100%;height:100%;"/><span>鼠标悬停</span></th>
+                            <th><img src="images/img/19.jpg" style = "width: 100%;height:100%;"/><span>鼠标悬停</span></th>
+                            <th><img src="images/img/20.jpg" style = "width: 100%;height:100%;"/><span>鼠标悬停</span></th>
 						</tr>
 						<tr>
-							<td><div class = "price"><b>￥12.05元</b></div><div class = "referral">哈哈哈哈哈哈哈哈哈哈哈哈</div></td>
-							<td><div class = "price"><b>￥12.05元</b></div><div class = "referral">哈哈哈哈哈哈哈哈哈哈哈哈</div></td>
-							<td><div class = "price"><b>￥12.05元</b></div><div class = "referral">哈哈哈哈哈哈哈哈哈哈哈哈</div></td>
-							<td><div class = "price"><b>￥12.05元</b></div><div class = "referral">哈哈哈哈哈哈哈哈哈哈哈哈</div></td>
-							<td><div class = "price"><b>￥12.05元</b></div><div class = "referral">哈哈哈哈哈哈哈哈哈哈哈哈</div></td>
-							<td><div class = "price"><b>￥12.05元</b></div><div class = "referral">哈哈哈哈哈哈哈哈哈哈哈哈</div></td>
+							<td><div class = "price"><b>￥12.05元</b></div></td>
+                            <td><div class = "price"><b>￥12.05元</b></div></td>
+                            <td><div class = "price"><b>￥12.05元</b></div></td>
+                            <td><div class = "price"><b>￥12.05元</b></div></td>
+                            <td><div class = "price"><b>￥12.05元</b></div></td>
 						</tr>
 					</table>
                 </div>
@@ -115,8 +123,133 @@
             <!-- stop-右侧整体div-->
         </div>
         <!-- stop-全局内部Div-->
-		<div style = "border: 1px solid red;height:42px;margin-top:365px;margin-left:135px;width:80%;"></div>
+		<!-- start 底部版权div -->
+        <div class = "base">
+            <div class = "bases">
+                尚乐购！快乐购物每一天。
+				<button style="height: 20px; width: 20px; border-width: 1px; cursor: pointer; background: url('../jisuanqi/end.png');"></button>
+				<input type="button" style="background: url('../jisuanqi/end.png');width: 35px;height: 35px;"/>
+            </div>
+        </div>
+        <!-- end 底部版权div -->
     </div>
     <!-- stop-全局Div-->
+	
+	<!-- start-计算器 -->
+	<!-- 显示窗口的地方 -->
+	<div id="here"></div>
+	<!-- 要嵌入到窗口的内容 -->
+	<div id="login" style="display:none;">
+		<form action="#" method="post" onSubmit="return false;">
+			<div id="counter">
+				<div style="text-align:center;clear:both;"></div>
+				<div id="counter_content">
+					<h3><input id="input1" type="text" value="0" /></h3>
+					<ul>
+						<li>7</li>
+						<li>8</li>
+						<li>9</li>
+						<li>+</li>
+						<li>4</li>
+						<li>5</li>
+						<li>6</li>
+						<li>-</li>
+						<li>1</li>
+						<li>2</li>
+						<li>3</li>
+						<li>×</li>
+						<li>0</li>
+						<li>C</li>
+						<li>=</li>
+						<li>÷</li>
+					</ul>
+				</div>
+				<div id="bg"></div>
+			</div>
+		</form>
+	</div>
+	<script type="text/javascript">
+		var here = document.getElementById("here");
+		var login = document.getElementById("login");
+		var clickhere = document.getElementById("clickhere");
+		clickhere.onclick = function(){
+		here.appendChild(createdialog(285,231+5,login,"计算器",true));
+		}
+	</script>
+	<!-- stop-计算器 -->
+
+	<!-- start-留言板 -->
+	<!-- 要嵌入到窗口的内容 -->
+	<div id="liuYanBan" style="display:none;">
+		<textarea rows="12" cols="42" style="float:left;margin-top:-2px;"></textarea>
+	</div>
+	<script type="text/javascript">
+		var here = document.getElementById("here");
+		var liuYanBan = document.getElementById("liuYanBan");
+		var liuYan = document.getElementById("liuYan");
+		liuYan.onclick = function(){
+		here.appendChild(createdialog(312,184+30,liuYanBan,"留言板",true));
+		}
+	</script>
+	<!-- stop-留言板 -->
+	
+	<!-- start-联系我 -->
+	<!-- 要嵌入到窗口的内容 -->
+	<div id="contactMe" style="display:none;">
+		<div style="width:100%;float:left;margin-top:15px;">
+			<ul>
+				<li style="color:#6C6C6C;">&nbsp;&nbsp;手机号码：<span style="color:red;">13141278993</span></li>
+				<li><a href="tencent://message/?uin=617445014&websiteName=qzone.qq.com&Menu=yes" title="contact me" target="_blank" >&nbsp;&nbsp;QQ联系我</a></li>
+				<li style="color:#6C6C6C;">&nbsp;&nbsp;如果本人没能及时回复您，请进入<a href="#" id="liuYan">留言板</a>留言,</p>&nbsp;&nbsp;谢谢合作！</li>
+			</ul>
+		</div>
+	</div>
+	<script type="text/javascript">
+		var here = document.getElementById("here");
+		var contactMe = document.getElementById("contactMe");
+		var contactMes = document.getElementById("contactMes");
+		contactMes.onclick = function(){
+		here.appendChild(createdialog(312,100+30,contactMe,"联系我",true));
+		}
+	</script>
+	<!-- stop-联系我 -->
+	
+	<!-- start-新动态 -->
+	<!-- 要嵌入到窗口的内容 -->
+	<div id="dynamicStates" style="display:none;">
+		<div style="width:100%;float:left;margin-top:15px;">
+			<ul>
+				<li style="color:#6C6C6C;">&nbsp;&nbsp;<span style="color:red;font-size:17px;">*</span>本店将于2016年11月11日进行促销热卖，欢迎广大市名前来购物，本超市物美价廉，绝对让您买的开心，用的放心，吃的安心。大家赶紧来抢购吧</li>
+			</ul>
+		</div>
+	</div>
+	<script type="text/javascript">
+		var here = document.getElementById("here");
+		var dynamicStates = document.getElementById("dynamicStates");
+		var dynamicState = document.getElementById("dynamicState");
+		dynamicState.onclick = function(){
+		here.appendChild(createdialog(312,100+30,dynamicStates,"超市新动态",true));
+		}
+	</script>
+	<!-- stop-新动态 -->
+	
+	<!-- start-尚乐购 -->
+	<!-- 要嵌入到窗口的内容 -->
+	<div id="shangLeGous" style="display:none;">
+		<div style="width:100%;float:left;margin-top:15px;">
+			<ul>
+				<li style="color:#6C6C6C;">&nbsp;&nbsp;&nbsp;尚乐购超市，开业于 xxxx年x月x日，本店以服务广大群众为基本理念，物品价格便宜，只为方便百姓生活起居，取得一个双赢的局面。本店位于黄梅县分路镇分路街口旁。</li>
+			</ul>
+		</div>
+	</div>
+	<script type="text/javascript">
+		var here = document.getElementById("here");
+		var shangLeGous = document.getElementById("shangLeGous");
+		var shangLeGou = document.getElementById("shangLeGou");
+		shangLeGou.onclick = function(){
+		here.appendChild(createdialog(312,100+30,shangLeGous,"尚乐购",true));
+		}
+	</script>
+	<!-- stop-尚乐购 -->
     </body>
 </html>

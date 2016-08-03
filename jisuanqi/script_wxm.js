@@ -152,12 +152,12 @@ function createdialog(width,height,bodycontent,title,removeable){
 		dialogcssText= "position:absolute;background:#33AED7;padding:1px;border:4px;top:200px;left:"+templeft+"px;height:"+height+"px;width:"+width+"px;";
 		dialogbodycssText = "width:100%;background:#ffffff;"+"height:" + tempheight + "px;";
 		dialog.style.cssText = dialogcssText;
-		dialogtitlebar.style.cssText = "height:30px;width:100%;background:url(/jscss/demoimg/201311/titlebar.png) repeat;cursor:move;";
+		dialogtitlebar.style.cssText = "height:30px;width:100%; repeat;cursor:move;";
 		dialogbody.style.cssText 	= dialogbodycssText;
-		dialogtitleimg.style.cssText = "float:left;height:20px;width:20px;background:url(/jscss/demoimg/201311/40.gif);"+"display:block;margin:4px;line-height:20px;";
+		dialogtitleimg.style.cssText = "float:left;height:20px;width:20px;"+"display:block;margin:4px;line-height:20px;";
 		dialogtitle.style.cssText = "font-size:16px;float:left;display:block;margin:4px;line-height:20px;";
 		dialogclose.style.cssText 	= "float:right;display:block;margin:4px;line-height:20px;";
-		closeaction.style.cssText	= "height:20px;width:24px;border-width:1px;"+"background-image:url(/jscss/demoimg/201311/close.png);cursor:pointer;";
+		closeaction.style.cssText	= "height:20px;width:20px;border-width:1px;cursor:pointer;";
 		/*为窗口元素注册事件*/
 		var dialogleft = parseInt(dialog.style.left);
 		var dialogtop = parseInt(dialog.style.top);
