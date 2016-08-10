@@ -1,4 +1,5 @@
 ﻿
+/* start-计算器算法 */
 var sNum1='';
 var sOpr='';
 
@@ -110,6 +111,8 @@ function onload2()
 		document.body.appendChild(oS);
 	})();
 };
+/* stop-计算器算法 */
+
 
 /**
 关于一些参数说明：
